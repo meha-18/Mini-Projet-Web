@@ -6,7 +6,7 @@ Ce projet consiste en la création d'un site web moderne et vitrine pour une age
 ## 🛠️ Technologies Utilisées
 * **HTML5** : Structuration sémantique du contenu.
 * **CSS3** : Design moderne avec l'utilisation de **Flexbox** pour la mise en page.
-* **JavaScript (Vanilla)** : Ajout d'interactivité (Effet de saisie dynamique et gestion du formulaire).
+* **JavaScript (Vanilla)** : Ajout d'interactivité (Effet de saisie dynamique).
 
 ## ✨ Fonctionnalités Clés
 1.  **Effet de Typing Dynamique** : Une animation personnalisée en JavaScript sur la page d'accueil pour captiver l'utilisateur.
