@@ -22,7 +22,7 @@ Ce projet consiste en la création d'un site web moderne et vitrine pour une age
 
 ## 🚀 Démonstration en Direct
 Vous pouvez consulter le projet en ligne via GitHub Pages : 
-[](https://meha-18.github.io/Mini-Projet-Web/)
+[ https://meha-18.github.io/Mini-Projet-Web/](https://meha-18.github.io/Mini-Projet-Web/)
 
 ---
 Développé par : Maha FARIZ  
