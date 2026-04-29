@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Agency-Digitale</title>
+    <link rel="icon" type="images/png" href="images/favicon.png">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="hm">NEXT</h1>
+    </header>
+    <h1 class="mh">Contacter-Nous</h1>
+    <main>
+        <section>
+            <div class="ju">
+                <form id="f">
+                    <fieldset>
+                        <legend>
+                            Contactez Next Agency
+                        </legend>
+                        <label for="n">Nom et prenom :</label><br><br>
+                        <input id="n" type="text" name="nom" placeholder="Entrer votre nom et prenom" value="" required>
+                        <br><br>
+                        <label for="e">Email :</label><br><br>
+                        <input id="e" type="email" name="email" placeholder="Entrer votre email" required>
+                        <br><br>
+                        <label for="t">Message</label><br><br>
+                        <textarea name="Message" placeholder="Entrer votre message" required></textarea>
+                        <br><br>
+                        <button onclick="afficher()" id="b" type="submit">Envoyer</button>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="contact">
+                <p>Téléphone : +212 608-710699</p>
+                <p>Email : contact@nextagency.ma</p>
+            </div>
+        </section>
+    </main>
+    <div>
+         <nav>
+            <ul>
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="a-propos.html" class="active">À Propos</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+          </nav>
+    </div>
+    <br><br>
+    <footer>
+        <p>
+            &copy Next Agency Digitale 2026
+        </p>
+    </footer>
+     <script src="script.js"></script>
+</body>
+</html>
