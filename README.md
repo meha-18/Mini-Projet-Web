@@ -21,7 +21,8 @@ Ce projet consiste en la création d'un site web moderne et vitrine pour une age
 * `portfolio.html`, `services.html`, `contact.html`, `a-propos.html` : Pages secondaires du projet.
 
 ## 🚀 Démonstration en Direct
-Vous pouvez consulter le projet en ligne via GitHub Pages : 
+Vous pouvez consulter le projet en ligne via GitHub Pages :
+
 [ https://meha-18.github.io/Mini-Projet-Web/](https://meha-18.github.io/Mini-Projet-Web/)
 
 ---
