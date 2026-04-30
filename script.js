@@ -2,7 +2,7 @@
  * Fonction pour afficher une alerte de bienvenue personnalisée.
  * Elle récupère la valeur saisie dans le champ avec l'ID "n".
  */
-function afficher(maha){
+function afficher(){
     var myInput = document.getElementById("n");
     // Affiche une boîte de dialogue avec le nom de l'utilisateur
     alert( "Bonjours" + " " + myInput.value + " " + "!" );
