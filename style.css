@@ -1,14 +1,17 @@
+/* Reset des marges et paddings par défaut pour assurer la cohérence entre les navigateurs */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* Style du corps de la page: dégradé sombre et typographie claire */
 body{
     background: linear-gradient(to right, rgb(63, 0, 0), black, rgb(0, 39, 0));
     height: 100dvh;
     color: azure;
     padding-bottom: 70px;
 }
+/* Style de l'en-tête */
 header{
     bottom: 0;
     left: 0;
@@ -16,9 +19,11 @@ header{
     padding: 20px 0;
     z-index: 1000;
 }
+/* Animation des liens */
 nav ul li a:hover{
     color: cadetblue;
 }
+/* Style des liens de navigation */
 nav ul li a{
     display: inline-block;
     font-size: larger;
@@ -32,12 +37,14 @@ nav ul li a{
     line-height: 1.6;
     padding-top: 40px;
 }
+/* Style des titres principaux */
 h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-bottom: 5px;
     padding-top: 30px;
     color: rgb(242, 237, 237);
 }
+/* Mise en forme des paragraphes standards */
 p{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
@@ -65,6 +72,7 @@ a:hover{
     padding-right: 16%;
     word-spacing: 30px;
 }
+/* Bouton d'appel à l'action */
 .btn{
     display: block;
     padding: 14px 12px;
@@ -90,10 +98,12 @@ h3{
     color: #84f293;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* Section Services: Organisation des blocs */
 .nos-services{
     line-height: 1.6;
     padding-top: 70px;
 }
+/* Cartes des services */
 .m{
     padding-left: 30px;
     margin-bottom: 40px;
@@ -103,6 +113,7 @@ h3{
     padding: 30px;
     margin-bottom: 30px;
 }
+/* Flexbox pour la section À Propos (Image + Texte) */
 .jm{
     display: flex;
     align-items: center;
@@ -120,6 +131,7 @@ img{
     line-height: 1.6;
     text-align: left;
 }
+/* Galerie portfolio: Utilisation du css grid */
 .grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -127,12 +139,14 @@ img{
     padding-top: 100px;
     padding-left: 100px;
 }
+/* Style des images pour un rendu uniforme */
 img{
     width: 90%;
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
 }
+/* Style du formulaire de contact */
 fieldset{
     border: 3px solid rgb(168, 245, 110);
     border-radius: 10px;
@@ -145,6 +159,7 @@ legend{
     padding: 10px;
     color: rgb(253, 3, 3);
 }
+/* Champs de saisie du formulaire */
 input, textarea{
     width: 100%;
     padding: 12px;
@@ -155,6 +170,7 @@ label{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
 }
+/* Bouton d'envoi du formulaire */
 button{
     background-color: red;
     color: black;
