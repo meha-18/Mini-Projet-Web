@@ -1,38 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
+    <!-- Définition du codage des caractères et de la compatibilité mobile -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titre de la page contact -->
     <title>Next Agency-Digitale</title>
+    <!-- Icône de l'onglet (Favicon) -->
     <link rel="icon" type="images/png" href="images/favicon.png">
+    <!-- Liaison avec la feuille de style CSS externe -->
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    <!-- En-tête de la page contenant le logo de l'agence -->
     <header>
         <h1 class="hm">NEXT</h1>
     </header>
+    <!-- Titre principal de la page contact -->
     <h1 class="mh">Contacter-Nous</h1>
     <main>
+        <!-- Section du formulaire de contact -->
         <section>
             <div class="ju">
                 <form id="f">
                     <fieldset>
+                        <!-- Légende du groupe de champs -->
                         <legend>
                             Contactez Next Agency
                         </legend>
+                        <!-- Champ pour le nom complet -->
                         <label for="n">Nom et prenom :</label><br><br>
                         <input id="n" type="text" name="nom" placeholder="Entrer votre nom et prenom" value="" required>
                         <br><br>
+                        <!-- Champ pour l'adresse email -->
                         <label for="e">Email :</label><br><br>
                         <input id="e" type="email" name="email" placeholder="Entrer votre email" required>
                         <br><br>
+                        <!-- Zone de texte pour le message de l'utilisateur -->
                         <label for="t">Message</label><br><br>
                         <textarea name="Message" placeholder="Entrer votre message" required></textarea>
                         <br><br>
+                        <!-- Bouton d'envoi / la fonction afficher() en JavaScript -->
                         <button onclick="afficher()" id="b" type="submit">Envoyer</button>
                     </fieldset>
                 </form>
             </div>
+            <!-- Informations de contact direct (Téléphone et Email) -->
             <div class="contact">
                 <p>Téléphone : +212 608-710699</p>
                 <p>Email : contact@nextagency.ma</p>
@@ -40,6 +53,7 @@
         </section>
     </main>
     <div>
+         <!-- Navigation principale du site -->
          <nav>
             <ul>
                 <li><a href="index.html" class="active">Accueil</a></li>
@@ -51,11 +65,13 @@
           </nav>
     </div>
     <br><br>
+    <!-- Pied de page -->
     <footer>
         <p>
             &copy Next Agency Digitale 2026
         </p>
     </footer>
+    <!-- Liaison avec le script JavaScript -->
      <script src="script.js"></script>
 </body>
 </html>
