@@ -5,7 +5,7 @@
 function afficher(maha){
     var myInput = document.getElementById("n");
     // Affiche une boîte de dialogue avec le nom de l'utilisateur
-    alert( "Bonjours" + myInput.value + "!" );
+    alert( "Bonjours" + " " + myInput.value + " " + "!" );
 }
 // Sélection de l'élément HTML cible pour l'effet de saisie (ID "t")
 const txt = document.getElementById('t');
