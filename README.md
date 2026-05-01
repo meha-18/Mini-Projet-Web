@@ -26,5 +26,5 @@ Vous pouvez consulter le projet en ligne via GitHub Pages :
 [ https://meha-18.github.io/Mini-Projet-Web/](https://meha-18.github.io/Mini-Projet-Web/)
 
 ---
-Développé par : Maha FARIZ  
+Développé par : Maha FARIZ et Abdorrahmane ID-FEDDAH
 Filière : Informatique Appliquée (S2)
