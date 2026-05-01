@@ -1,6 +1,6 @@
    🚀 Next Agency - Mini Projet Web
 
-📝 Présentation du Projet
+## 📝 Présentation du Projet
 Ce projet consiste en la création d'un site web moderne et vitrine pour une agence digitale nommée **Next Agency**. L'objectif était de concevoir une interface utilisateur (UI) fluide, responsive et interactive en utilisant les technologies fondamentales du web.
 
 ## 🛠️ Technologies Utilisées
