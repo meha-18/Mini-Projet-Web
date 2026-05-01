@@ -12,7 +12,7 @@ Ce projet consiste en la création d'un site web moderne et vitrine pour une age
 1.  **Effet de Typing Dynamique** : Une animation personnalisée en JavaScript sur la page d'accueil pour captiver l'utilisateur.
 2.  **Design Responsive** : Le site s'adapte aux différents types d'écrans.
 3.  **Formulaire de Contact** : Validation des données côté client avant l'envoi.
-4.  **Expérience Utilisateur (UX)** : Navigation fluide entre les différentes sections (Accueil, Services, Portfolio, À propos).
+4.  **Expérience Utilisateur (UX)** : Navigation fluide entre les différentes sections (Accueil, Services, Portfolio, À propos, Contact).
 
 ## 📂 Structure du Dossier
 * `index.html` : Page d'accueil principale.
